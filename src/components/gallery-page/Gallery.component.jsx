@@ -34,7 +34,7 @@ export default class Gallery extends Component {
                     </span>
                 </article>
 
-                <section className="d-flex flex-wrap flex-lg-nowrap pr-5 pl-5 justify-content-around mt-5">
+                <section className="d-flex flex-wrap pr-5 pl-5 justify-content-around mt-5">
                     {
                         this.state.images.map(({id, attributes})=> (
                             <div className="col-xl-4 col-12 mt-4 card img-cover p-0 shadow position-relative" key={id}>

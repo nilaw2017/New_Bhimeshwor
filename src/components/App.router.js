@@ -12,24 +12,11 @@ export default function AppRouter() {
       <BrowserRouter>
         <NavBar />
         <Routes>
+          <Route exact path="/" component={Home} element={<Home />}></Route>
+          <Route path="/about" component={About} element={<About />}></Route>
+          <Route path="/gallery" component={Gallery} element={<Gallery />} />
           <Route
-            exact
-            path="/Bhimeshwor/"
-            component={Home}
-            element={<Home />}
-          ></Route>
-          <Route
-            path="/Bhimeshwor/about"
-            component={About}
-            element={<About />}
-          ></Route>
-          <Route
-            path="/Bhimeshwor/gallery"
-            component={Gallery}
-            element={<Gallery />}
-          />
-          <Route
-            path="/Bhimeshwor/order-form"
+            path="/order-form"
             component={OrderForm}
             element={<OrderForm />}
           />
