@@ -14,14 +14,22 @@ export default function AppRouter() {
         <Routes>
           <Route
             exact
-            path="/Bhimeshwor"
+            path="/Bhimeshwor/"
             component={Home}
             element={<Home />}
           ></Route>
-          <Route path="/about" component={About} element={<About />}></Route>
-          <Route path="/gallery" component={Gallery} element={<Gallery />} />
           <Route
-            path="/order-form"
+            path="/Bhimeshwor/about"
+            component={About}
+            element={<About />}
+          ></Route>
+          <Route
+            path="/Bhimeshwor/gallery"
+            component={Gallery}
+            element={<Gallery />}
+          />
+          <Route
+            path="/Bhimeshwor/order-form"
             component={OrderForm}
             element={<OrderForm />}
           />
