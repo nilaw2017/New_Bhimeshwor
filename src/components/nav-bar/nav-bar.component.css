@@ -1,0 +1,66 @@
+.logo {
+  width: 150px;
+  padding: 10px;
+}
+.nav-head {
+  background-color: var(--pri);
+  width: 100%;
+  z-index: 999;
+}
+.nav {
+  height: 100%;
+}
+.nav ul {
+  height: 100%;
+}
+.nav ul li {
+  list-style: none;
+  padding: 0 1rem;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: var(--text-pri);
+  transition: 0.5s;
+}
+.nav ul li a:hover {
+  color: var(--text-sec);
+  border-bottom: 1px solid var(--text-sec);
+}
+.active {
+  font-weight: bolder;
+  border-bottom: 1px solid var(--text-pri);
+}
+
+#home,
+#about,
+#gallery,
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--text-sec);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+#home:hover,
+#about:hover,
+#gallery:hover,
+#contact:hover {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+}
+
+.res-nav {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  padding: 10px;
+  width: 100vw;
+  height: 50px;
+  z-index: 99;
+  justify-content: center;
+  position: fixed;
+}

@@ -1,0 +1,24 @@
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.card-soul {
+  width: 0;
+  transition: 1s;
+}
+.card-soul span {
+  display: none;
+}
+
+.card:hover .card-soul {
+  width: 100%;
+}
+.card:hover .card-soul span {
+  display: block;
+}

@@ -1,0 +1,8 @@
+.product-img {
+  width: inherit;
+  overflow: hidden;
+  transition: 1s;
+}
+.product-img:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
+.poppins {
+  font-family: "Poppins";
+}
+.acme {
+  font-family: "Acme";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pri: #fe964d;
+  --sec: #f8fafe;
+
+  --bgColor: #fff7f1;
+
+  --text-pri: #181818;
+  --text-sec: #716c80;
+}
+
+body {
+  background-color: var(--bgColor);
+}
+.text-pri {
+  color: var(--pri);
+}
+.bg-pri {
+  background-color: var(--pri);
+}
+.text-sec {
+  color: var(--text-sec);
+}
+.text-xl {
+  font-size: 54px;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-lg {
+  font-size: 32px;
+}
+.text-md {
+  font-size: 16px;
+}
+.img-cover {
+  object-fit: cover;
+}
+
+.order-1 {
+  order: -1;
+}
+.order-2 {
+  order: -2;
+}
+
+.active {
+  font-weight: bolder;
+  border-bottom: 2px solid var(--text-pri);
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.width-100 {
+  width: 100%;
+}
+.height-100 {
+  height: 100%;
+}
+
+.gradient-glassmorphism {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+}

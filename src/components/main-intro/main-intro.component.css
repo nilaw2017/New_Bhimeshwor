@@ -1,0 +1,30 @@
+.header-img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.main-header::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: var(--text-pri);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 60%;
+}
+
+.innerHead {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+.innerHead h1,
+.innerHead h3 {
+  width: 80vw;
+  font-family: "Poppins", sans-serif;
+}
