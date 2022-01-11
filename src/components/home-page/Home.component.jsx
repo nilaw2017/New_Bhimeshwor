@@ -3,7 +3,8 @@ import {HomeIntro} from "./../main-intro/MainIntro.component";
 import './home.component.css'
 
 export default class Home extends Component {
-    render() {
+  render() {
+      console.log("process",process.env)
         return (
           <section>
             
