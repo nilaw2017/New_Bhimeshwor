@@ -33,7 +33,7 @@ class HomeIntro extends Component {
             <div className="position-relative main-header">
               <img
                 className="header-img"
-                src={`https://bhimeshor.herokuapp.com/${attributes.BackgroundImage.data.attributes.url}`}
+                src={`https://bhimeshor.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
               />
               <aside className="innerHead text-light">
                 <h1 className="text-xl text-bold">{attributes.MainHead}</h1>
@@ -78,7 +78,7 @@ class AboutIntro extends Component {
             <div className="position-relative main-header">
               <img
                 className="header-img"
-                src={`https://bhimeshor.herokuapp.com/${attributes.BackgroundImage.data.attributes.url}`}
+                src={`https://bhimeshor.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
               />
               <aside className="innerHead text-light">
                 <h1 className="text-xl text-bold">{attributes.MainHead}</h1>
@@ -123,7 +123,7 @@ class GalleryIntro extends Component {
             <div className="position-relative main-header">
               <img
                 className="header-img"
-                src={`https://bhimeshor.herokuapp.com/${attributes.BackgroundImage.data.attributes.url}`}
+                src={`https://bhimeshor.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
               />
               <aside className="innerHead text-light">
                 <h1 className="text-xl text-bold">{attributes.MainHead}</h1>
@@ -168,7 +168,7 @@ class OrderIntro extends Component {
             <div className="position-relative main-header">
               <img
                 className="header-img"
-                src={`https://bhimeshor.herokuapp.com/${attributes.BackgroundImage.data.attributes.url}`}
+                src={`https://bhimeshor.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
               />
               <aside className="innerHead text-light">
                 <h1 className="text-xl text-bold">{attributes.MainHead}</h1>
