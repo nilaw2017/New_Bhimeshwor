@@ -37,11 +37,11 @@ class Contact extends Component {
               </div>
               <div className="d-flex mt-5">
                 <i className="fa fa-envelope mr-3"></i>
-                <h6>samek_shrestha66@yahoo.com</h6>
+                <h6>samek_shrestha@yahoo.com</h6>
               </div>
               <div className="d-flex mt-5">
                 <i className="fa fa-phone mr-3"></i>
-                <h6>9841272444</h6>
+                <h6>9865543323 / 9841516055</h6>
               </div>
             </div>
             <div className="col-xl-6 mt-5">
