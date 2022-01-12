@@ -9,6 +9,7 @@ export default class About extends Component {
     };
   }
   componentDidMount() {
+    fetch(`${process.env.DB_URL}/main-intro-abouts`);
     fetch("http://localhost:1337/api/main-intro-abouts")
       .then((res) => {
         if (res.status >= 400) {
