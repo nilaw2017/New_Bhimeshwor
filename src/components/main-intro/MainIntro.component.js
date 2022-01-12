@@ -10,7 +10,7 @@ class HomeIntro extends Component {
   }
   componentDidMount() {
     fetch(
-      `https://bhimeshor.herokuapp.com//api/main-intro-home?populate=BackgroundImage`
+      `https://bhimeshor.herokuapp.com/api/main-intro-home?populate=BackgroundImage`
     )
       .then((res) => {
         if (res.status >= 400) {
@@ -55,7 +55,7 @@ class AboutIntro extends Component {
   }
   componentDidMount() {
     fetch(
-      `https://bhimeshor.herokuapp.com//api/main-intro-about?populate=BackgroundImage`
+      `https://bhimeshor.herokuapp.com/api/main-intro-about?populate=BackgroundImage`
     )
       .then((res) => {
         if (res.status >= 400) {
@@ -100,7 +100,7 @@ class GalleryIntro extends Component {
   }
   componentDidMount() {
     fetch(
-      `https://bhimeshor.herokuapp.com//api/main-intro-gallery?populate=BackgroundImage`
+      `https://bhimeshor.herokuapp.com/api/main-intro-gallery?populate=BackgroundImage`
     )
       .then((res) => {
         if (res.status >= 400) {
@@ -145,7 +145,7 @@ class OrderIntro extends Component {
   }
   componentDidMount() {
     fetch(
-      `https://bhimeshor.herokuapp.com//api/main-intro-order?populate=BackgroundImage`
+      `https://bhimeshor.herokuapp.com/api/main-intro-order?populate=BackgroundImage`
     )
       .then((res) => {
         if (res.status >= 400) {
