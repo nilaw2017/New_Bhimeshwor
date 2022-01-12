@@ -12,7 +12,7 @@ export default class Gallery extends Component {
 
     componentDidMount() {
         fetch(`https://bhimeshor.herokuapp.com/api/galleries?populate=CardImage`)
-        fetch(`http://localhost:1337/api/galleries?populate=CardImage`)
+        // fetch(`http://localhost:1337/api/galleries?populate=CardImage`)
         .then((res)=> {
             if(res.status >=400) {
                 console.log("Something Went Wrong")

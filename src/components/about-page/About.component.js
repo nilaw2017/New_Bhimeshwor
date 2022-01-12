@@ -9,8 +9,8 @@ export default class About extends Component {
     };
   }
   componentDidMount() {
-    fetch(`https://bhimeshwor.netlify.app/main-intro-abouts`);
-    // fetch("http://localhost:1337/api/main-intro-abouts")
+    fetch(`https://bhimeshwor.netlify.app/main-intro-abouts`)
+      // fetch("http://localhost:1337/api/main-intro-abouts")
       .then((res) => {
         if (res.status >= 400) {
           console.log("Something Went Horribly Wrong :P");
