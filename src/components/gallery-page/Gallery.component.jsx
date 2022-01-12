@@ -38,7 +38,7 @@ export default class Gallery extends Component {
                 <section className="d-flex flex-wrap pr-5 pl-5 justify-content-around mt-5">
                     {
                         this.state.images.map(({id, attributes})=> (
-                            <div className="col-xl-4 col-12 mt-4 card p-0 shadow position-relative" key={id}>
+                            <div className="col-xl-4 col-md-6 col-12 mt-4 card p-0 shadow position-relative" key={id}>
                                 <img alt="gallery-img" src={`https://bhimeshor.herokuapp.com${attributes.CardImage.data.attributes.url}`} />
                                 <div className="card-soul position-absolute width-100 height-100 gradient-glassmorphism text-white d-flex justify-content-center align-items-center">
                                     <span>{attributes.Message}</span>
