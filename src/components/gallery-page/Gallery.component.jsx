@@ -11,8 +11,7 @@ export default class Gallery extends Component {
     }
 
     componentDidMount() {
-        fetch(`https://bhimeshor.herokuapp.com/api/galleries?populate=CardImage`)
-        // fetch(`http://localhost:1337/api/galleries?populate=CardImage`)
+        fetch(`https://bhimeshwor-server.herokuapp.com/api/galleries?populate=*`)
         .then((res)=> {
             if(res.status >=400) {
                 console.log("Something Went Wrong")
@@ -25,7 +24,6 @@ export default class Gallery extends Component {
         })
     }
     render() {
-        console.log("GALLERY >>",this.state.images)
         return(
             <section>
                 <GalleryIntro/>
@@ -39,7 +37,7 @@ export default class Gallery extends Component {
                     {
                         this.state.images.map(({id, attributes})=> (
                             <div className="col-xl-4 col-md-6 col-12 mt-4 card p-0 shadow position-relative" key={id}>
-                                <img alt="gallery-img" src={`https://bhimeshor.herokuapp.com${attributes.CardImage.data.attributes.url}`} />
+                                <img alt="gallery-img" src={`https://bhimeshwor-server.herokuapp.com${attributes.CardImage.data.attributes.url}`} />
                                 <div className="card-soul position-absolute width-100 height-100 gradient-glassmorphism text-white d-flex justify-content-center align-items-center">
                                     <span>{attributes.Message}</span>
                                 </div>

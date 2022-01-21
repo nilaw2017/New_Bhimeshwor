@@ -22,7 +22,7 @@ export default class Home extends Component {
               <aside className="col-xl-6 overflow-hidden">
                 <img
                   className="img-cover shadow product-img"
-                  src={process.env.PUBLIC_URL + "/assets/images/eggsCrate.jpg"}
+                  src={process.env.PUBLIC_URL + "/assets/images/eggs-closeup.jpg"}
                   alt="IMAGES"
                 />
               </aside>
