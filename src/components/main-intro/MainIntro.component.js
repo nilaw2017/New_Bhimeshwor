@@ -100,7 +100,7 @@ class GalleryIntro extends Component {
   }
   componentDidMount() {
     fetch(
-      `https://bhimeshor.herokuapp.com/api/main-intro-gallery?populate=BackgroundImage`
+      `https://bhimeshwor-server.herokuapp.com/api/main-intro-gallery?populate=BackgroundImage`
     )
       .then((res) => {
         if (res.status >= 400) {
@@ -123,7 +123,7 @@ class GalleryIntro extends Component {
             <div className="position-relative main-header">
               <img
                 className="header-img"
-                src={`https://bhimeshor.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
+                src={`https://bhimeshwor-server.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
               />
               <aside className="innerHead text-light">
                 <h1 className="text-xl text-bold">{attributes.MainHead}</h1>
@@ -145,7 +145,7 @@ class OrderIntro extends Component {
   }
   componentDidMount() {
     fetch(
-      `https://bhimeshor.herokuapp.com/api/main-intro-order?populate=BackgroundImage`
+      `https://bhimeshwor-server.herokuapp.com/api/main-intro-order?populate=BackgroundImage`
     )
       .then((res) => {
         if (res.status >= 400) {
@@ -168,7 +168,7 @@ class OrderIntro extends Component {
             <div className="position-relative main-header">
               <img
                 className="header-img"
-                src={`https://bhimeshor.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
+                src={`https://bhimeshwor-server.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
               />
               <aside className="innerHead text-light">
                 <h1 className="text-xl text-bold">{attributes.MainHead}</h1>
