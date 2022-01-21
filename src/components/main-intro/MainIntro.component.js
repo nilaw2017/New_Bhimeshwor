@@ -55,7 +55,7 @@ class AboutIntro extends Component {
   }
   componentDidMount() {
     fetch(
-      `https://bhimeshor.herokuapp.com/api/main-intro-about?populate=BackgroundImage`
+      `https://bhimeshwor-server.herokuapp.com/api/main-intro-about?populate=BackgroundImage`
     )
       .then((res) => {
         if (res.status >= 400) {
