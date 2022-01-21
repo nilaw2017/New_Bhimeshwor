@@ -10,7 +10,7 @@ class HomeIntro extends Component {
   }
   componentDidMount() {
     fetch(
-      `https://bhimeshor.herokuapp.com/api/main-intro-home?populate=BackgroundImage`
+      `https://bhimeshwor-server.herokuapp.com/api/main-intro-home?populate=BackgroundImage`
     )
       .then((res) => {
         if (res.status >= 400) {
@@ -33,7 +33,7 @@ class HomeIntro extends Component {
             <div className="position-relative main-header">
               <img
                 className="header-img"
-                src={`https://bhimeshor.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
+                src={`https://bhimeshwor-server.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
               />
               <aside className="innerHead text-light">
                 <h1 className="text-xl text-bold">{attributes.MainHead}</h1>
@@ -78,7 +78,7 @@ class AboutIntro extends Component {
             <div className="position-relative main-header">
               <img
                 className="header-img"
-                src={`https://bhimeshor.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
+                src={`https://bhimeshwor-server.herokuapp.com${attributes.BackgroundImage.data.attributes.url}`}
               />
               <aside className="innerHead text-light">
                 <h1 className="text-xl text-bold">{attributes.MainHead}</h1>
