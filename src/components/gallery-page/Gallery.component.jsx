@@ -37,7 +37,7 @@ export default class Gallery extends Component {
                     {
                         this.state.images.map(({id, attributes})=> (
                             <div className="col-xl-4 col-md-6 col-12 mt-4 card p-0 shadow position-relative" key={id}>
-                                <img alt="gallery-img" src={`https://bhimeshwor-server.herokuapp.com${attributes.CardImage.data.attributes.url}`} />
+                                <img alt="gallery-img" src={attributes.CardImage.data.attributes.url} />
                                 <div className="card-soul position-absolute width-100 height-100 gradient-glassmorphism text-white d-flex justify-content-center align-items-center">
                                     <span>{attributes.Message}</span>
                                 </div>
