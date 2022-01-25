@@ -26,6 +26,9 @@ body {
   background-color: var(--bgColor);
 }
 .text-pri {
+  color: var(--text-pri);
+}
+.text-bg-pri {
   color: var(--pri);
 }
 .bg-pri {

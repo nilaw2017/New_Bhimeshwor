@@ -11,7 +11,7 @@ export default class Home extends Component {
               <HomeIntro />
             <div className="container">
           <article className="d-flex justify-content-center text-bold mt-5">
-            <span className="menu-header text-pri text-xl acme">
+            <span className="menu-header text-bg-pri text-xl acme">
               FARM PRODUCTS
             </span>
           </article>
@@ -27,7 +27,7 @@ export default class Home extends Component {
                 />
               </aside>
               <aside className="col-xl-6">
-                <h2 className="text-pri text-lg text-bold poppins">
+                <h2 className="text-bg-pri text-lg text-bold poppins">
                   Quality Eggs
                 </h2>
                 <p className="text-sec">
@@ -52,7 +52,7 @@ export default class Home extends Component {
                 />
               </aside>
               <aside className="col-xl-6 order-1">
-                <h2 className="text-pri text-lg text-bold poppins">
+                <h2 className="text-bg-pri text-lg text-bold poppins">
                   Local Breeds
                 </h2>
                 <p className="text-sec">

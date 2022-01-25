@@ -28,7 +28,7 @@ export default class Gallery extends Component {
             <section>
                 <GalleryIntro/>
                 <article className="d-flex justify-content-center text-bold mt-5">
-                    <span className="menu-header text-pri text-xl acme">
+                    <span className="menu-header text-bg-pri text-xl acme">
                     GALLERY
                     </span>
                 </article>

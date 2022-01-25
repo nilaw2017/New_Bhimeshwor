@@ -24,7 +24,7 @@ class Contact extends Component {
         <OrderIntro />
         <form action={mail} method="POST" className="container">
           <article className="d-flex justify-content-center text-bold mt-5">
-            <span className="menu-header text-pri text-xl acme">
+            <span className="menu-header text-bg-pri text-xl acme">
               ORDER FORM
             </span>
           </article>
